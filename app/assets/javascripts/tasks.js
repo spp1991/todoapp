@@ -46,7 +46,9 @@ $(function(){
 
       
       $('.toggle').change(toggleTask);
-    });
+    }).fail(function(){
+      alert("Hello");
+    });;
 
     $("#new-form").submit(function(event){
       event.preventDefault();
@@ -56,6 +58,7 @@ $(function(){
           title: textbox.val()
         }
       };
+      console.log(payload);
       $.post("/tasks",payload).success(function(data){
         var htmlString = taskHtml(data);  
         var ulTodos = $('.todo-list');
