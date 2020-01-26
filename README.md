@@ -4,7 +4,7 @@ This is a clone of Todo application (http://todomvc.com/)  implemented with ruby
 
 The application allows users to create To-do list. Each task in To-do list will be shown with a checkbox. A Ticked checkbox along with strike through line will indicate a task is completed. 
 
-This app uses ajax request to load tasks from the database , Create & update tasks  
+This app uses ajax request to load,create & update tasks in the database   
 
 Technical details of the app is as follows :
 Programming Language: Ruby, javascript
