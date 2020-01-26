@@ -15,5 +15,5 @@ Host Application : Heroku
 
 To checkout the application, click <a src="https://todo-sunny-patel.herokuapp.com/">here </a> 
 
-<img src="screenshot.png" alt="Blog Screenshot">
+<img src="screenshot.PNG" alt="Screenshot">
 
