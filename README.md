@@ -13,7 +13,7 @@ Database : postgresql
 Test Suite gem : rspec
 Host Application : Heroku
 
-To checkout the application, click <a src="https://todo-sunny-patel.herokuapp.com/">here </a> 
+To checkout the application, click [here](https://todo-sunny-patel.herokuapp.com) 
 
 <img src="screenshot.PNG" alt="Screenshot">
 
