@@ -1,24 +1,19 @@
-# README
+# Todo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a clone of Todo application (http://todomvc.com/)  implemented with ruby on rails framework, javascript using test driven development approach. It is a great example of learning various javascript concepts while getting hold of building various tests to application functionalities.  
 
-Things you may want to cover:
+The application allows users to create To-do list. Each task in To-do list will be shown with a checkbox. A Ticked checkbox along with strike through line will indicate a task is completed. 
 
-* Ruby version
+This app uses ajax request to load tasks from the database , Create & update tasks  
 
-* System dependencies
+Technical details of the app is as follows :
+Programming Language: Ruby, javascript
+Web Framwork : ruby on rails, jQuery
+Database : postgresql
+Test Suite gem : rspec
+Host Application : Heroku
 
-* Configuration
+To checkout the application, click <a src="https://todo-sunny-patel.herokuapp.com/">here </a> 
 
-* Database creation
+<img src="screenshot.png" alt="Blog Screenshot">
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

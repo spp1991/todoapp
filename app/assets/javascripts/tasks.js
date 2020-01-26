@@ -28,9 +28,10 @@ $(function(){
         }
       }).success(function(data){
           var liHtml = taskHtml(data);
-          var $li = $("listitem-"+ data.id);
+          var $li = $("#listItem-"+ data.id);
           $li.replaceWith(liHtml);
           $('.toggle').change(toggleTask);
+
       });;
     }
     
@@ -46,9 +47,7 @@ $(function(){
 
       
       $('.toggle').change(toggleTask);
-    }).fail(function(){
-      alert("Hello");
-    });;
+    });
 
     $("#new-form").submit(function(event){
       event.preventDefault();
