@@ -6,8 +6,6 @@ The application allows users to create To-do list. Each task in To-do list will 
 
 This app uses ajax request to load,create & update tasks in the database   
 
-To checkout the application, click [here](https://todo-sunny-patel.herokuapp.com) 
-
 ## [Try it yourself](https://todo-sunny-patel.herokuapp.com) 
 
 
